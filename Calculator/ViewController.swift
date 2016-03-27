@@ -13,9 +13,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
 
     var userIsTying : Bool = false
+    var inputFloat : Bool = false
+    
+    @IBAction func clean(sender: UIButton) {
+        brain.reset()
+        userIsTying = false
+        displayValue = 0
+    }
     
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
+        
+        if digit == "." {
+            if inputFloat == true {
+                //error
+            }
+            else {
+                inputFloat = true
+            }
+        }
         
         if userIsTying {
             display.text = display.text! + digit
