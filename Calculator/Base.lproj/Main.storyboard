@@ -147,6 +147,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J84-ZN-Ugh">
                                 <rect key="frame" x="268" y="67" width="64" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="cos"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zst-9d-apZ"/>
                                 </connections>
@@ -154,8 +155,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-3a-PY2">
                                 <rect key="frame" x="268" y="139" width="64" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="sin"/>
                                 <connections>
-                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BnP-hR-oIL"/>
+                                    <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6RX-eh-pmL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ey9-EO-obt">

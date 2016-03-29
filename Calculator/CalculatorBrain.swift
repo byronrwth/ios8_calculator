@@ -7,6 +7,7 @@
 //
 
 import Foundation
+//import Darwin
 
 class CalculatorBrain {
     
@@ -48,6 +49,8 @@ class CalculatorBrain {
         knownOps["-"] = Op.BinaryOperation("-") { $1 - $0 } // cannot change order !
         knownOps["÷"] = Op.BinaryOperation("÷") { $1 / $0 }
         knownOps["√"] = Op.UnaryOperation("√", sqrt)
+        knownOps["sin"] = Op.UnaryOperation("sin", sin)
+        knownOps["cos"] = Op.UnaryOperation("cos", cos)
 
     }
     
